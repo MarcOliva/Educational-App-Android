@@ -8,4 +8,8 @@
     <string name="question_six">6.¿Cómo se denomina el resultado de la multiplicación?</string>
     <string name="question_seven">7.¿Qué son los humanos: omnívoros, herbívoros o carnívoros?</string>
     <string name="question_eight">8.¿Cuál es el país más grande del mundo?</string>
+
+    <string name="state_happy">Eres un genio !!</string>
+    <string name="state_sad">Puedes mejorar</string>
+    <string name="state_cry">Estudia mas</string>
 </resources>

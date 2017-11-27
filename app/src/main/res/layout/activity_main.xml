@@ -21,6 +21,7 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,7 +48,8 @@
         <EditText
             android:id="@+id/answer_two_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="respuesta" />
 
         <TextView
             android:layout_width="match_parent"
@@ -58,7 +60,8 @@
         <EditText
             android:id="@+id/answer_three_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="respuesta" />
 
         <TextView
             android:layout_width="match_parent"
@@ -96,7 +99,8 @@
         <EditText
             android:id="@+id/answer_five_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="respuesta" />
 
         <TextView
             android:layout_width="match_parent"
@@ -109,6 +113,7 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/answer_six_rb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Producto" />
@@ -119,7 +124,6 @@
                 android:text="Residuo" />
 
             <RadioButton
-                android:id="@+id/answer_six_rb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dividendo" />
@@ -149,7 +153,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dividendo" />
+                android:text="carnívoros" />
         </RadioGroup>
 
         <TextView
@@ -178,12 +182,25 @@
                 android:layout_height="wrap_content"
                 android:text="U.S.A" />
         </RadioGroup>
-        <Button
+
+        <FrameLayout
             android:id="@+id/display_result_bt"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Display Result"
-            />
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_corners_round">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Mostrar Resultado"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white" />
+
+        </FrameLayout>
+
+
     </LinearLayout>
 
 </ScrollView>
