@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_one">1.¿Quién escribió La Odisea?</string>
+    <string name="question_two">2.¿En que pais se originaron los juegos olímpicos?</string>
+    <string name="question_three">3.¿En qué país se encuentra la torre de Pisa?</string>
+    <string name="question_four">4.¿En que pais se encuentra la famosa Torre Eiffel?</string>
+    <string name="question_five">5.¿Qué año llegó Cristóbal Colón a América?</string>
+    <string name="question_six">6.¿Cómo se denomina el resultado de la multiplicación?</string>
+    <string name="question_seven">7.¿Qué son los humanos: omnívoros, herbívoros o carnívoros?</string>
+    <string name="question_eight">8.¿Cuál es el país más grande del mundo?</string>
+</resources>
